@@ -157,6 +157,19 @@ button {
     height: 400px;
 }
 
+.h1-category {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.category-p {
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+    text-align: center;
+}
+
 .img1 {
     margin: auto;
     display: block;
@@ -166,11 +179,13 @@ button {
     display: flex;
     justify-content: space-around;
     margin-bottom: 125px;
+    gap: 300px;
 }
 
 .item {
     text-align: center;
     margin-top: 50px;
+    align-items: center;
 }
 
 .item div {
@@ -220,7 +235,7 @@ button {
     height: 40px;
     border: none;
     cursor: pointer;
-    margin-top: 90px;
+    margin-top: 40px;
 }
 
 .btn-preto {
@@ -230,7 +245,7 @@ button {
     height: 40px;
     border: none;
     cursor: pointer;
-    margin-top: 90px;
+    margin-top: 40px;
 }
 
 div.img{
