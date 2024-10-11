@@ -190,14 +190,17 @@ button {
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
+    text-align: center;
 }
 
 .testimonial-box h2 {
     margin-top: 0;
+    text-align: center;
 }
 
 .testimonial-box p {
     margin: 10px 0;
+    text-align: center;
 }
 
 .branco {
@@ -220,6 +223,16 @@ button {
     margin-top: 90px;
 }
 
+.btn-preto {
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    margin-top: 90px;
+}
+
 div.img{
     background-color: #1CBBB4;
 }
@@ -231,6 +244,7 @@ div.img{
     justify-content: space-around;
     padding: 20px;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 footer {
@@ -241,6 +255,10 @@ footer {
     justify-content: space-around;
     flex-wrap: wrap;
     text-align: center;
+}
+
+footer.p{
+    color: white;
 }
 
 textarea {
