@@ -246,9 +246,37 @@ button {
     text-align: right;
 }
 
+.about-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-h1 {
+    text-align: center;
+}
+
+.about-p {
+
+}
+
 .baixo {
     margin-top: 50px;
+    margin-left: 0px;
     color: black;
+    white-space: nowrap;
+    font-size: 30px;
+}
+
+.baixo-p {
+    margin: 10px 0;
+    text-align: justify;
+    width: 80%;
 }
 
 .testimonial-box {
