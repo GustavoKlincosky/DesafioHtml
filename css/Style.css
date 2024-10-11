@@ -235,6 +235,9 @@ button {
 
 div.img{
     background-color: #1CBBB4;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
 }
 
 #Final {
