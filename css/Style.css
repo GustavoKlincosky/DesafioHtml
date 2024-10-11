@@ -220,6 +220,10 @@ button {
     margin-top: 90px;
 }
 
+div.img{
+    background-color: #1CBBB4;
+}
+
 #Final {
     background-color: #1A2E35;
     color: white;
@@ -236,6 +240,7 @@ footer {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 textarea {
